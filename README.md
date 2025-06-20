@@ -18,8 +18,8 @@ Welcome to **LaravelGPT**! A super **cute and powerful offline AI chatbot** craf
 
 - 🌈 **Offline & Private**: Runs locally with LLaMA 3—no internet, no API keys, just pure privacy! 🛡️
 - ⚡️ **Instant Replies**: Real-time streaming with Server-Sent Events (SSE) for a smooth, snappy chat experience.
-- 🧡 **Laravel Magic**: Built with Laravel 10 for a robust and developer-friendly vibe.
-- 🎉 **Adorable UI**: A clean, responsive interface styled with Tailwind CSS that feels like a warm hug.
+- 🧡 **Laravel Magic**: Built with Laravel 12 for a robust and developer-friendly vibe.
+- 🎉 **Adorable UI**: A clean, responsive interface styled with CSS that feels like a warm hug.
 - 🛠️ **Easy to Tweak**: Lightweight and perfect for adding your own creative touches!
 - 💻 **Local Power**: No cloud, no fuss—just you and your AI pal.
 
@@ -27,11 +27,10 @@ Welcome to **LaravelGPT**! A super **cute and powerful offline AI chatbot** craf
 
 ## 🛠️ Tech Stack That Shines
 
-- **Framework**: Laravel 10 (the heart of the magic ✨)
-- **Language**: PHP 8.x
+- **Framework**: Laravel 12 (the heart of the magic ✨)
+- **Language**: PHP 8.2
 - **AI Brain**: LLaMA 3 via Ollama
-- **Frontend**: Tailwind CSS, JavaScript (EventSource API), Blade Templates
-- **Database**: MySQL or SQLite (your choice!)
+- **Frontend**: CSS, JavaScript (EventSource API), Blade Templates
 - **AI Server**: Ollama (your local AI powerhouse)
 
 ---
@@ -42,7 +41,7 @@ Ready to bring LaravelGPT to life? Follow these simple steps to set it up on you
 
 ### 1️⃣ Prerequisites
 
-- PHP 8.x
+- PHP 8.2
 - Composer
 - Node.js & npm
 - MySQL or SQLite
@@ -61,25 +60,6 @@ cd LaravelGPT
 composer install
 cp .env.example .env
 php artisan key:generate
-```
-
-### 4️⃣ Prep Your Database
-
-Create a database (e.g., `laravelgpt`) and update your `.env`:
-
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravelgpt
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-Run the migrations:
-
-```bash
-php artisan migrate
 ```
 
 ### 5️⃣ Style It Up
@@ -151,14 +131,6 @@ LaravelGPT/
 
 ---
 
-## 📸 Cute Screenshots
-
-- **Chat UI**: `assets/images/screenshots/chat-ui.png`
-- **Banner**: `assets/images/banner.png` (optional GitHub sparkle)
-
-Tuck your screenshots into `assets/images/screenshots/` for easy access!
-
----
 
 ## 🌟 Fun Ideas to Make It Yours
 
@@ -172,7 +144,7 @@ Tuck your screenshots into `assets/images/screenshots/` for easy access!
 
 ## 🧑‍💻 Crafted with Love
 
-Built with tons of ❤️ by **Ejajul Ansari**
+Built with tons of ❤️ by **Md Ejajul Haque Ansari**
 
 - **GitHub**: [github.com/ejajul707](https://github.com/ejajul707)
 - **LinkedIn**: [linkedin.com/in/ejajul-ansari](https://linkedin.com/in/ejajul-ansari)
@@ -203,10 +175,3 @@ git add README.md
 git commit -m "Add super cute README with setup and sparkles"
 git push
 ```
-
-Want to make it even more adorable? I can:
-- Whip up a **GitHub banner** with a fun vibe.
-- Add a **PDF upload feature** to chat with documents.
-- Craft a **LinkedIn post** to show off your awesome project!
-
-Just let me know, bhai! 💪✨
