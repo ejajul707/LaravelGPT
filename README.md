@@ -1,14 +1,16 @@
-# 🌟 LaravelGPT: Your Friendly AI Chatbot 🤖💬
+![LaravelGPT](https://github.com/user-attachments/assets/886db180-b913-46a1-8eda-31e12bf5a2fb)# 🌟 LaravelGPT: Your Friendly AI Chatbot 🤖💬
 
 Welcome to **LaravelGPT**! A super **cute and powerful offline AI chatbot** crafted with love using **Laravel** and powered by the brilliant **LLaMA 3** via **Ollama**. It’s fast, private, and designed to make your AI experience delightful—whether you're coding, learning, or just chatting for fun! With **real-time streaming** and a cozy interface, it’s like having a smart buddy right on your computer! 😊
 
-![LaravelGPT Banner](assets/images/banner.png)
+![LaravelGPT](https://github.com/user-attachments/assets/d7070832-3969-4333-8e9c-0f2b5da4ce0a)
+
 
 ---
 
 ## 🎨 Sneak Peek at the Chat Magic
 
-![Chat UI Preview](assets/images/screenshots/chat-ui.png)
+![Chat UI Preview](![image](https://github.com/user-attachments/assets/5734e375-9fc4-4663-bacb-02f5371452dd)
+)
 
 ---
 
